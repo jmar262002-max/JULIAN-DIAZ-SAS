@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "servicio": "Diseño y documentación de la red: topología y direccionamiento IP"
+  },
+  {
+    "id": 2,
+    "servicio": "Configuración de routers, switches y puntos de acceso WiFi"
+  },
+  {
+    "id": 3,
+    "servicio": "Segmentación con VLAN y control de acceso"
+  },
+  {
+    "id": 4,
+    "servicio": "Monitoreo de enlaces y equipos con alertas"
+  },
+  {
+    "id": 5,
+    "servicio": "Administración de usuarios, DHCP y DNS"
+  },
+  {
+    "id": 6,
+    "servicio": "VPN y acceso remoto seguro"
+  },
+  {
+    "id": 7,
+    "servicio": "Respaldo de configuraciones y plan de recuperación"
+  },
+  {
+    "id": 8,
+    "servicio": "Gestión de ancho de banda y calidad de servicio (QoS)"
+  },
+  {
+    "id": 9,
+    "servicio": "Auditoría y optimización del rendimiento"
+  },
+  {
+    "id": 10,
+    "servicio": "Soporte técnico y mantenimiento preventivo y correctivo"
+  },
+  {
+    "id": 11,
+    "servicio": "Cableado estructurado y certificación CAT 6A"
+  }
+]

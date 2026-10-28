@@ -1,0 +1,19 @@
+-- Catálogo de servidores - Julian Diaz SAS (MySQL)
+CREATE TABLE IF NOT EXISTS catalogo_servidores (
+  id INT PRIMARY KEY,
+  nombre VARCHAR(160),
+  procesador VARCHAR(160),
+  memoria_ram VARCHAR(160),
+  almacenamiento VARCHAR(160),
+  red VARCHAR(160),
+  alimentacion VARCHAR(160),
+  ideal_para VARCHAR(160)
+) CHARACTER SET utf8mb4;
+
+INSERT INTO catalogo_servidores (id, nombre, procesador, memoria_ram, almacenamiento, red, alimentacion, ideal_para) VALUES
+  (1, 'Servidor Torre Pyme', 'Intel Xeon E, 4 a 8 núcleos', '16 GB ECC', '2 discos de 1 TB en RAID 1', '2 puertos Gigabit', 'Fuente simple (redundante opcional)', 'Archivos, ERP y correo de oficinas pequeñas'),
+  (2, 'Servidor Rack 1U', '1 CPU de 8 a 16 núcleos', '32 GB ECC', '2 SSD de 960 GB en RAID 1', '2 puertos Gigabit + gestión remota IPMI', 'Fuente redundante hot-swap', 'Aplicaciones web y bases de datos'),
+  (3, 'Servidor Rack 2U Virtualización', '2 CPU de 16 a 32 núcleos cada una', '128 GB ECC (ampliable)', '4 discos de 2 TB en RAID 10 + SSD', '4 puertos Gigabit o 10 GbE', 'Doble fuente redundante', 'Máquinas virtuales y consolidación'),
+  (4, 'Servidor de Almacenamiento NAS', 'Bajo consumo', '8 GB', '4 bahías: 4 discos de 4 TB en RAID 5', '2 puertos Gigabit (10 GbE opcional)', 'Fuente simple', 'Respaldos, archivos compartidos y video de CCTV');
+
+SELECT * FROM catalogo_servidores;
